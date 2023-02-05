@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "aesirx_web3_demo"
+name = "aesirx_web3_demo_v0001"
 version = "1.0.0-alpha.1"
 dependencies = [
  "concordium-cis2",
