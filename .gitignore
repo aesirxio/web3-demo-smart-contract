@@ -159,6 +159,9 @@ Temporary Items
 # Docker files
 /docker/files/**
 
+# Dist
+/dist/**
+
 # Global skip
 !.gitkeep
 
