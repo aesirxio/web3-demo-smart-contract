@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "aesirx_web3_demo_v0001"
-version = "1.0.0-alpha.1"
+version = "1.0.0-alpha.v0001"
 dependencies = [
  "concordium-cis2",
  "concordium-std",

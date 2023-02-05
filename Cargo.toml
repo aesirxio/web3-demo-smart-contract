@@ -1,6 +1,6 @@
 [package]
 name = "aesirx_web3_demo_v0001"
-version = "1.0.0-alpha.0001"
+version = "1.0.0-alpha.v0001"
 authors = [ "Tito Alvarez <augustoalvarez@gmail.com>" ]
 edition = "2021"
 license = "MPL-2.0"
