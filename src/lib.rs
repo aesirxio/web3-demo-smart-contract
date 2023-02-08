@@ -380,14 +380,6 @@ fn contract_mint<S: HasStateApi>(
     host: &mut impl HasHost<State<S>, StateApiType = S>,
     logger: &mut impl HasLogger,
 ) -> ContractResult<()> {
-    // Get the contract owner
-    let owner = ctx.owner();
-    // Get the sender of the transaction
-    let sender = ctx.sender();
-
-    // Anyone can mint!  Just for this alpha version
-    // ensure!(sender.matches_account(&owner), ContractError::Unauthorized);
-
     // Parse the parameter.
     let params: MintParams = ctx.parameter_cursor().get()?;
 
